@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 var path = require('path');
+//Added dependency for body-parser. 
 var bodyParser = require('body-parser');
 
 app.use(express.static(path.join(__dirname, '/public')));
